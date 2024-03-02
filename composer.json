@@ -8,7 +8,13 @@
     "autoload": {
         "psr-4": {
             "Chetan\\RandomPhpQuote\\": "src/"
-        }
+        },
+        "files": [
+            "src/RandomPhpQuote.php"
+        ],
+        "classmap": [
+            "src/"
+        ]
     },
     "authors": [
         {
