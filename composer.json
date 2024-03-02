@@ -1,24 +1,15 @@
 {
-    "name": "chetansingh/random-php-quote",
-    "description": "It is package to generate random php quote with bootstrap design",
-    "type": "composer-plugin",
-    "require": {
-        "guzzlehttp/guzzle": "^7.8"
-    },
+    "name": "chetansingh/quote",
     "autoload": {
         "psr-4": {
-            "Chetan\\RandomPhpQuote\\": "src/"
-        },
-        "files": [
-            "src/RandomPhpQuote.php"
-        ],
-        "classmap": [
-            "src/"
-        ]
+            "Chetansingh\\Quote\\": "src/"
+        }
     },
     "authors": [
         {
-            "name": "Chetan Sisodiya"
+            "name": "Chetan Singh",
+            "email": "chetan.singh@webeesocial.com"
         }
-    ]
+    ],
+    "require": {}
 }

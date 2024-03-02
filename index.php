@@ -1,9 +1,8 @@
 <?php
-require_once 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
-use Chetan\RandomPhpQuote\RandomPhpQuote;
+use Chetansingh\Quote\Quote;
 
-$quote = new RandomPhpQuote();
+$quote = new Quote();
 echo $quote->getQuote();
-
 ?>
