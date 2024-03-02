@@ -1,5 +1,5 @@
 {
-    "name": "chetan/random-php-quote",
+    "name": "chetansingh/random-php-quote",
     "description": "It is package to generate random php quote with bootstrap design",
     "type": "composer-plugin",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChetanSingh\\RandomPhpQuote\\": "src/"
+            "Chetan\\RandomPhpQuote\\": "src/"
         }
     },
     "authors": [
