@@ -11,5 +11,7 @@
             "email": "chetan.singh@webeesocial.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
 }
